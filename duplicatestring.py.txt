@@ -1,0 +1,12 @@
+string = input()
+dups={}
+for x in string:
+  if x not in dups:
+    dups[x]=0
+  else:
+    dups[x]+=1
+output=[]
+for keys,vals in dups.items():
+  if vals>0:
+    output.append(keys)
+print('The duplicate characters are {}'.format(output))

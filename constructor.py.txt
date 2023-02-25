@@ -1,0 +1,10 @@
+class test:
+    def __init__(self, k):
+        self.x1=k
+    def f(self,a):
+        print("this is method")
+        print(self.x1)
+    def f(self,a,b):
+        print(self.x1+a)
+ob1=test(1)
+ob1.f(5)

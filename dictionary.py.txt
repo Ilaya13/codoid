@@ -1,0 +1,16 @@
+result = 
+{
+  'A' : '20',
+  'B' : '15',
+  'C' : '10'
+}
+result
+
+result['A']
+result['Z'] = '9'
+result['A'] = '11'
+
+result
+
+for name in result:
+    print('Name:', name, ', Marks:', result[name])

@@ -1,0 +1,1 @@
+The StringBuffer class is mutable. String is slow and consumes more memory when we concatenate too many strings because every time it creates new instance. StringBuffer is fast and consumes less memory when we concatenate t strings. String class overrides the equals() method of Object class.

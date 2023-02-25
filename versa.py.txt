@@ -1,0 +1,16 @@
+
+test_str = 'geeks'
+
+
+print("The original string is : " + str(test_str))
+
+
+K = ['g', 'e', 'e', 'k', 'f', 'o', 'r', 'g', 'e', 'e', 'k', 's']
+
+
+joined_list = ''.join(K)
+
+
+res = test_str in joined_list
+
+print("Is String present in character list : " + str(res))
