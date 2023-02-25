@@ -1,0 +1,1 @@
+The SELECT TOP statement in SQL shows the limited number of records or rows from the database table. The TOP clause in the statement specifies how many rows are returned. It shows the top N number of rows from the tables in the output.
